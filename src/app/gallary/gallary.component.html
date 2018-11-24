@@ -1,0 +1,13 @@
+<div class="row color ml15">
+  <div class="column" *ngFor="let photo of reqPhotos; let i = index">
+    <mat-card class="example-card cardImg" (click)="callImageRoute(reqPhotos[i])" routerlink='review'>
+      <img mat-card-image src="http://farm{{photo.farm}}.staticflickr.com/{{photo.server}}/{{photo.id}}_{{photo.secret}}.jpg"
+        alt="Photo of a Shiba Inu" class="cardImg1">
+      <mat-card-content>
+        <p>
+          {{photo.title}}
+        </p>
+      </mat-card-content>
+    </mat-card>
+  </div>
+</div>

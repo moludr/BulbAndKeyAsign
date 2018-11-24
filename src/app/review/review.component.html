@@ -1,0 +1,49 @@
+<div class="row color ml15">
+  <div class="column">
+    <mat-card class="example-card cardImg" (click)="callImageRoute(reqPhotos[i])" routerlink='review'>
+      <img mat-card-image src="http://farm{{data.farm}}.staticflickr.com/{{data.server}}/{{data.id}}_{{data.secret}}.jpg"
+        alt="Photo of a Shiba Inu" class="cardImg1">
+      <mat-card-content>
+        <p>
+          {{data.title}}
+        </p>
+      </mat-card-content>
+    </mat-card>
+  </div>
+
+</div>
+<div class="row color ml15">
+  <div class="column">
+    <form class="form">
+      <div class="row">
+        <table>
+          <tr>
+            <td><span>Rating</span></td>
+            <td> <input class="radio" type="radio" name="rating" value="0" checked> 0
+              <input class="radio" type="radio" name="rating" value="1"> 1
+              <input class="radio" type="radio" name="rating" value="3"> 3
+              <input class="radio" type="radio" name="rating" value="4"> 4
+              <input class="radio" type="radio" name="rating" value="5"> 5
+              <input class="radio" type="radio" name="rating" value="6"> 6
+              <input class="radio" type="radio" name="rating" value="7"> 7
+              <input class="radio" type="radio" name="rating" value="8"> 8
+              <input class="radio" type="radio" name="rating" value="9"> 9
+            </td>
+          </tr>
+          <tr>
+            <td><span>Name</span></td>
+            <td><input class="form_input" type="text" name="name"></td>
+          </tr>
+          <tr>
+            <td><span>Reason for the rating:</span></td>
+            <td><input class="form_input" type="text" name="reason"></td>
+          </tr>
+          <tr>
+            <button class="form_button" (click)="alert('Responce Submitted')">Submit</button>
+          </tr>
+        </table>
+      </div>
+    </form>
+  </div>
+
+</div>

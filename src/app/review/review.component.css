@@ -1,0 +1,62 @@
+.color{
+    color: black;
+    text-align: center
+}
+
+.ml15{
+    margin-left: 15%;
+}
+.cardImg{
+    margin: 2%;
+    max-height: 300px;
+    min-height: 250px;
+}
+.cardImg1{
+    text-overflow: inherit;
+    max-height: 250px;
+    min-height: 250px;
+}
+.row {
+    display: -ms-flexbox; /* IE10 */
+    display: flex;
+    -ms-flex-wrap: wrap; /* IE10 */
+    flex-wrap: wrap;
+    padding: 0 4px;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+    -ms-flex: 25%; /* IE10 */
+    flex: 25%;
+    max-width: 50%;
+    padding: 0 4px;
+    margin-left: 25%;
+}
+
+.form{
+    margin: 0%
+}
+.radio{
+    width: 15px;
+    height: 15px;
+}
+.col-50 {
+    flex: 0 0 50% !important;
+    max-width: 50% !important;
+}
+.form_input{
+    border: 1px solid black;
+    border-radius: 5px;
+    min-width: 310px;
+    min-height: 25px;
+}
+.form_button{
+    color: #fff;
+    background: #3F51B4;
+    border: 1px solid;
+    min-width: 128px;
+    min-height: 35px;
+    border-radius: 5px;
+    margin-left: 120%;
+    margin-top: 10%;
+}

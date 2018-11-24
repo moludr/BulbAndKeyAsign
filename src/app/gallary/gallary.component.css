@@ -1,0 +1,34 @@
+.color{
+    color: black;
+    text-align: center
+}
+
+.ml15{
+    margin-left: 15%;
+}
+.cardImg{
+    margin: 2%;
+    max-height: 300px;
+    min-height: 250px;
+}
+.cardImg1{
+    text-overflow: inherit;
+    max-height: 250px;
+    min-height: 250px;
+}
+.row {
+    display: -ms-flexbox; /* IE10 */
+    display: flex;
+    -ms-flex-wrap: wrap; /* IE10 */
+    flex-wrap: wrap;
+    padding: 0 4px;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+    -ms-flex: 25%; /* IE10 */
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px;
+    margin-left: 5%;
+}
